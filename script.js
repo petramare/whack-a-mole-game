@@ -19,9 +19,9 @@ const randomHole = (holes) => {
   const hole = holes[index];
   return hole;
 };
-
+-
 const peep = () => {
-  const time = randomTime(300, 800);
+  const time = randomTime(300, 1000);
   const hole = randomHole(holes);
 
   hole.classList.add("active");
